@@ -6,6 +6,7 @@ import '../styles/footer.css';
 import NewTab from '../icons/open-in-new.svg';
 import Phone from '../icons/phone.svg';
 import Email from '../icons/email.svg';
+import HeaderImage from '../img/image0.jpeg';
 
 function addNewTabSVG() {
     const livePreview = document.querySelectorAll('.live-preview-link');
@@ -33,6 +34,14 @@ function addEmailSVG() {
     email.insertBefore(emailSVG, email.firstChild);
 }
 
+function addHeaderImage() {
+    const headerImageContainer = document.querySelector('header-image');
+    const headerImage = new Image();
+    headerImage.src = HeaderImage;
+    headerImageContainer.append(headerImage);
+}
+
 addNewTabSVG();
 addPhoneSVG();
 addEmailSVG();
+addHeaderImage();
