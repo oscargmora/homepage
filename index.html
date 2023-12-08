@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <meta name="description" content="Oscar Mora">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <link
@@ -12,7 +13,9 @@
     <script defer src="runtime.bundle.js"></script><script defer src="main.bundle.js"></script></head>
     <body>
         <header>
-            <header-image></header-image>
+            <header-image>
+                <h1>OSCAR MORA</h1>
+            </header-image>
             <about-me-section>
                 <h2>About Me</h2>
                 <p>
@@ -22,173 +25,212 @@
                     HTML, CSS, Javascript. Accountant at Seawood Builders II,
                     LLC.
                 </p>
+                <header-links>
+                    <github-link>
+                        <a target="_blank" href="https://github.com/oscargmora" aria-label="Open Oscar Mora's Github"
+                            ><img class="github" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt=""/></a>
+                    </github-link>
+                    <linkedin-link>
+                        <a target="_blank" href="https://www.linkedin.com/in/oscargmora/" aria-label="Open Oscar Mora's LinkedIn"
+                            ><img class="linked-in" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" alt=""/></a>
+                    </linkedin-link>
+                </header-links>
             </about-me-section>
-            <links>
-                <github-link>
-                    <a href="https://github.com/oscargmora"
-                        ><i class="devicon-github-original colored"></i
-                    ></a>
-                </github-link>
-                <linkedin-link>
-                    <a href="https://www.linkedin.com/in/oscargmora/"
-                        ><i class="devicon-linkedin-plain colored"></i
-                    ></a>
-                </linkedin-link>
-            </links>
         </header>
         <main>
-            <h2>My Work</h2>
+            <h2 class="my-work">My Work</h2>
             <container>
                 <div>
-                    <image-container></image-container>
+                    <image-container
+                        class="battleship-image-container"
+                    ></image-container>
                     <project-detail-container>
-                        <h3>Battleship</h3>
-                        <github-link>
-                            <a href="https://github.com/oscargmora/battleship"
-                                ><i class="devicon-github-original colored"></i
-                            ></a>
-                        </github-link>
-                        <live-preview-link>
-                            <a
-                                class="live-preview-link"
-                                href="https://oscargmora.github.io/battleship/"
-                                ><img
-                                    src="./icons/open-in-new.svg"
-                                    alt="Live Preview"
-                            /></a>
-                        </live-preview-link>
-                        <p></p>
+                        <title-and-link>
+                            <h3>Battleship</h3>
+                            <links>
+                                <github-link>
+                                    <a target="_blank" href="https://github.com/oscargmora/battleship" aria-label="Open Battleship Github Page"
+                                        ><i
+                                            class="devicon-github-original colored main-i"
+                                        ></i
+                                    ></a>
+                                </github-link>
+                                <live-preview-link>
+                                    <a target="_blank" class="live-preview-link" aria-label="Open Battleship"
+                                        href="https://oscargmora.github.io/battleship/"
+                                    ></a> </live-preview-link
+                            ></links>
+                        </title-and-link>
+                        <p class="project-description">
+                            Sink Your Enemy Ship in this User vs. Computer
+                            Battleship Game!
+                        </p>
                     </project-detail-container>
                 </div>
                 <div>
-                    <image-container></image-container>
+                    <image-container
+                        class="weather-app-container"
+                    ></image-container>
                     <project-detail-container>
-                        <h3>Weather App</h3>
-                        <github-link>
-                            <a href="https://github.com/oscargmora/weather-app"
-                                ><i class="devicon-github-original colored"></i
-                            ></a>
-                        </github-link>
-                        <live-preview-link>
-                            <a
-                                class="live-preview-link"
-                                href="https://oscargmora.github.io/weather-app/"
-                                ><img
-                                    src="./icons/open-in-new.svg"
-                                    alt="Live Preview"
-                            /></a>
-                        </live-preview-link>
-                        <p></p>
+                        <title-and-link>
+                            <h3>Weather App</h3>
+                            <links>
+                                <github-link>
+                                    <a target="_blank" href="https://github.com/oscargmora/weather-app" aria-label="Open Weather App Github Page"
+                                        ><i
+                                            class="devicon-github-original colored main-i"
+                                        ></i
+                                    ></a>
+                                </github-link>
+                                <live-preview-link>
+                                    <a target="_blank" class="live-preview-link" aria-label="Open Weather App"
+                                        href="https://oscargmora.github.io/weather-app/"
+                                    ></a> </live-preview-link
+                            ></links>
+                        </title-and-link>
+                        <p class="project-description">
+                            A weather application to check the the climate in
+                            any area around the world
+                        </p>
                     </project-detail-container>
                 </div>
                 <div>
-                    <image-container></image-container>
+                    <image-container
+                        class="to-do-list-container"
+                    ></image-container>
                     <project-detail-container>
-                        <h3>To-Do List</h3>
-                        <github-link>
-                            <a href="https://github.com/oscargmora/to-do-list"
-                                ><i class="devicon-github-original colored"></i
-                            ></a>
-                        </github-link>
-                        <live-preview-link>
-                            <a
-                                class="live-preview-link"
-                                href="https://oscargmora.github.io/to-do-list/"
-                                ><img
-                                    src="./icons/open-in-new.svg"
-                                    alt="Live Preview"
-                            /></a>
-                        </live-preview-link>
-                        <p></p>
+                        <title-and-link>
+                            <h3>To-Do List</h3>
+                            <links>
+                                <github-link>
+                                    <a target="_blank" href="https://github.com/oscargmora/to-do-list" aria-label="Open To-Do List Github Page"
+                                        ><i
+                                            class="devicon-github-original colored main-i"
+                                        ></i
+                                    ></a>
+                                </github-link>
+                                <live-preview-link>
+                                    <a target="_blank" class="live-preview-link" aria-label="Open To-Do List"
+                                        href="https://oscargmora.github.io/to-do-list/"
+                                    ></a>
+                                </live-preview-link>
+                            </links>
+                        </title-and-link>
+                        <p class="project-description">
+                            Keep your priorities in check with this To-Do List!
+                        </p>
                     </project-detail-container>
                 </div>
                 <div>
-                    <image-container></image-container>
+                    <image-container
+                        class="italy-itinerary-container"
+                    ></image-container>
                     <project-detail-container>
-                        <h3>Italy Itinerary</h3>
-                        <github-link>
-                            <a
-                                href="https://github.com/oscargmora/italy-itinerary"
-                                ><i class="devicon-github-original colored"></i
-                            ></a>
-                        </github-link>
-                        <live-preview-link>
-                            <a
-                                class="live-preview-link"
-                                href="https://oscargmora.github.io/italy-itinerary/"
-                                ><img
-                                    src="./icons/open-in-new.svg"
-                                    alt="Live Preview"
-                            /></a>
-                        </live-preview-link>
-                        <p></p>
+                        <title-and-link>
+                            <h3>Italy Itinerary</h3>
+                            <links>
+                                <github-link>
+                                    <a target="_blank" href="https://github.com/oscargmora/italy-itinerary" aria-label="Open Italy Itinerary Github Page"
+                                    >
+                                        <i
+                                            class="devicon-github-original colored main-i"
+                                        ></i>
+                                    </a>
+                                </github-link>
+                                <live-preview-link>
+                                    <a target="_blank" class="live-preview-link" aria-label="Open Italy Itinerary"
+                                        href="https://oscargmora.github.io/italy-itinerary/"
+                                    ></a>
+                                </live-preview-link>
+                            </links>
+                        </title-and-link>
+                        <p class="project-description">
+                            An Itinerary for a 10-Day Trip to Italy!
+                        </p>
                     </project-detail-container>
                 </div>
                 <div>
-                    <image-container></image-container>
+                    <image-container
+                        class="etch-a-sketch-container"
+                    ></image-container>
                     <project-detail-container>
-                        <h3>Etch-A-Sketch</h3>
-                        <github-link>
-                            <a
-                                href="https://github.com/oscargmora/etch-a-sketch"
-                                ><i class="devicon-github-original colored"></i
-                            ></a>
-                        </github-link>
-                        <live-preview-link>
-                            <a
-                                class="live-preview-link"
-                                href="https://oscargmora.github.io/etch-a-sketch/"
-                                ><img
-                                    src="./icons/open-in-new.svg"
-                                    alt="Live Preview"
-                            /></a>
-                        </live-preview-link>
-                        <p></p>
+                        <title-and-link>
+                            <h3>Etch-A-Sketch</h3>
+                            <links>
+                                <github-link>
+                                    <a target="_blank" href="https://github.com/oscargmora/etch-a-sketch" aria-label="Open Etch-A-Sketch Github Page"
+                                        ><i
+                                            class="devicon-github-original colored main-i"
+                                        ></i
+                                    ></a>
+                                </github-link>
+                                <live-preview-link>
+                                    <a target="_blank" class="live-preview-link" aria-label="Open Etch-A-Sketch"
+                                        href="https://oscargmora.github.io/etch-a-sketch/"
+                                    ></a> </live-preview-link
+                            ></links>
+                        </title-and-link>
+                        <p class="project-description">
+                            Dark Mode Etch-a-Sketch
+                        </p>
                     </project-detail-container>
                 </div>
                 <div>
-                    <image-container></image-container>
+                    <image-container
+                        class="cinemalist-container"
+                    ></image-container>
                     <project-detail-container>
-                        <h3>Cinemalist</h3>
-                        <github-link>
-                            <a href="https://github.com/oscargmora/Cinemalist"
-                                ><i class="devicon-github-original colored"></i
-                            ></a>
-                        </github-link>
-                        <live-preview-link>
-                            <a
-                                class="live-preview-link"
-                                href="https://oscargmora.github.io/Cinemalist/"
-                                ><img
-                                    src="./icons/open-in-new.svg"
-                                    alt="Live Preview"
-                            /></a>
-                        </live-preview-link>
-                        <p></p>
+                        <title-and-link>
+                            <h3>Cinemalist</h3>
+                            <links>
+                                <github-link>
+                                    <a target="_blank" href="https://github.com/oscargmora/Cinemalist" aria-label="Open Cinemalist Github Page"
+                                        ><i
+                                            class="devicon-github-original colored main-i"
+                                        ></i
+                                    ></a>
+                                </github-link>
+                                <live-preview-link>
+                                    <a target="_blank" class="live-preview-link" aria-label="Open Cinemalist Page"
+                                        href="https://oscargmora.github.io/Cinemalist/"
+                                    ></a>
+                                </live-preview-link>
+                            </links>
+                        </title-and-link>
+                        <p class="project-description">
+                            Cinemalist. A Movies to Watch List.
+                        </p>
                     </project-detail-container>
                 </div>
             </container>
         </main>
         <footer>
-            <h2>Contact Me</h2>
-            <p>
-                Please contact me if you think our work could be mutually
-                beneficial!
-            </p>
-            <p>754-715-2802</p>
-            <p>moragoscar@outlook.com</p>
-            <links>
-                <github-link>
-                    <a href="https://github.com/oscargmora"
-                        ><i class="devicon-github-original colored"></i
-                    ></a>
-                </github-link>
-                <linkedin-link>
-                    <a href="https://www.linkedin.com/in/oscargmora/"
-                        ><i class="devicon-linkedin-plain colored"></i
-                    ></a>
-                </linkedin-link>
-            </links>
+            <footer-words>
+                <h2 class="footer-h2">Contact Me</h2>
+                <footer-content>
+                    <p class="footer-p">
+                        Please contact me if you think our work could be mutually
+                        beneficial!
+                    </p>
+                    <phone-container>
+                        <p class="phone">754-715-2802</p>
+                    </phone-container>
+                    <email-container>
+                        <p class="email">moragoscar@outlook.com</p>
+                    </email-container>
+                    <footer-links>
+                </footer-content>
+                <footer-links>
+                    <github-link>
+                        <a target="_blank" href="https://github.com/oscargmora" aria-label="Open Oscar Mora's Github"
+                            ><img class="github" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt=""/></a>
+                    </github-link>
+                    <linkedin-link>
+                        <a target="_blank" href="https://www.linkedin.com/in/oscargmora/" aria-label="Open Oscar Mora's LinkedIn"
+                            ><img class="linked-in" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" alt=""/></a>
+                    </linkedin-link>
+                </footer-links>
+            </footer-words>
             <footer-image></footer-image>
         </footer>
     </body>
