@@ -10,3 +10,7 @@ body {
 a {
     text-decoration: none;
 }
+
+.special-i {
+    font-size: 3em;
+}

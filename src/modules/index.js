@@ -105,7 +105,6 @@ function addCinemalistImage() {
     const image = new Image();
     image.src = Cinemalist;
     image.classList.add('work-images');
-    image.classList.add('cinemalist');
     container.append(image);
 }
 

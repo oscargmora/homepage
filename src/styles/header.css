@@ -33,7 +33,7 @@ img {
 }
 
 about-me-section {
-    padding: 1em 2em 0 2em;
+    padding: 2em 2em 0 2em;
 }
 
 h2 {
@@ -49,8 +49,34 @@ p {
     padding: 0.5em 0 0.5em 0;
 }
 
-links {
+header-links {
     display: flex;
     justify-content: center;
     gap: 5px;
+    padding-top: 1em;
+}
+
+@media (min-width: 1000px) {
+    header {
+        flex-wrap: nowrap;
+        align-items: center;
+        padding: 3em 8em 1em 8em;
+    }
+
+    about-me-section {
+        background-color: white;
+        box-shadow:
+            0 4px 8px 0 rgba(0, 0, 0, 0.2),
+            0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    h2 {
+        text-align: start;
+        padding-bottom: 0.5em;
+    }
+
+    header-links {
+        justify-content: end;
+        padding-bottom: 1em;
+    }
 }

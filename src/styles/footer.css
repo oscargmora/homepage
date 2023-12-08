@@ -45,3 +45,29 @@ footer-image {
     width: 100%;
     object-fit: cover;
 }
+
+@media (min-width: 1000px) {
+    footer {
+        display: flex;
+        padding: 3em 8em 3em 8em;
+    }
+
+    footer-links {
+        justify-content: start;
+        padding-left: 1em;
+    }
+
+    .footer-h2 {
+        padding-left: 1.5em;
+    }
+
+    .footer-p,
+    phone-container,
+    email-container {
+        padding-left: 2.4em;
+    }
+
+    footer-links {
+        padding-left: 2.8em;
+    }
+}

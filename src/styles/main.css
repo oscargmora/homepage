@@ -10,6 +10,7 @@ container {
 
 div {
     margin: 1em;
+    max-width: 30em;
     box-shadow:
         0 4px 8px 0 rgba(0, 0, 0, 0.2),
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -29,8 +30,12 @@ image-container {
     object-position: top left;
 }
 
+.main-i {
+    font-size: 2em;
+}
+
 .svg {
-    height: 1.2em;
+    height: 2em;
 }
 
 title-and-link {
@@ -47,4 +52,19 @@ h3 {
     font-family: playfair;
     font-weight: 150;
     font-size: 25px;
+}
+
+@media (min-width: 1000px) {
+    main {
+        margin-top: 5em;
+    }
+
+    container {
+        padding: 0 3em 0 3em;
+    }
+
+    .my-work {
+        padding-left: 4.5em;
+        padding-bottom: 0;
+    }
 }
