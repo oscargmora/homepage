@@ -20,6 +20,7 @@ function addNewTabSVG() {
     livePreview.forEach((preview) => {
         const newTabIcon = new Image();
         newTabIcon.src = NewTab;
+        newTabIcon.alt = '';
         newTabIcon.classList.add('svg');
         preview.append(newTabIcon);
     });
@@ -29,6 +30,7 @@ function addPhoneSVG() {
     const phone = document.querySelector('phone-container');
     const phoneSVG = new Image();
     phoneSVG.src = Phone;
+    phoneSVG.alt = '';
     phoneSVG.classList.add('svg');
     phoneSVG.classList.add('phone-svg');
     phone.insertBefore(phoneSVG, phone.firstChild);
@@ -38,6 +40,7 @@ function addEmailSVG() {
     const email = document.querySelector('email-container');
     const emailSVG = new Image();
     emailSVG.src = Email;
+    emailSVG.alt = '';
     emailSVG.classList.add('svg');
     emailSVG.classList.add('email-svg');
     email.insertBefore(emailSVG, email.firstChild);
@@ -47,6 +50,7 @@ function addHeaderImage() {
     const headerImageContainer = document.querySelector('header-image');
     const headerImage = new Image();
     headerImage.src = HeaderImage;
+    headerImage.alt = 'Oscar Mora';
     headerImageContainer.append(headerImage);
 }
 
@@ -54,6 +58,7 @@ function addFooterImage() {
     const footerImageContainer = document.querySelector('footer-image');
     const footerImage = new Image();
     footerImage.src = FooterImage;
+    footerImage.alt = 'Oscar Mora';
     footerImage.classList.add('footer-img');
     footerImageContainer.append(footerImage);
 }
@@ -62,6 +67,7 @@ function addBattleshipImage() {
     const container = document.querySelector('.battleship-image-container');
     const image = new Image();
     image.src = Battleship;
+    image.alt = 'Battleship Screenshot';
     image.classList.add('work-images');
     container.append(image);
 }
@@ -70,6 +76,7 @@ function addWeatherAppImage() {
     const container = document.querySelector('.weather-app-container');
     const image = new Image();
     image.src = WeatherApp;
+    image.alt = 'Weather App Screenshot';
     image.classList.add('work-images');
     image.classList.add('weather-app-image');
     container.append(image);
@@ -79,6 +86,7 @@ function addToDoListImage() {
     const container = document.querySelector('.to-do-list-container');
     const image = new Image();
     image.src = ToDoList;
+    image.alt = 'To Do List Screenshot';
     image.classList.add('work-images');
     image.classList.add('to-do-list');
     container.append(image);
@@ -88,6 +96,7 @@ function addItalyImage() {
     const container = document.querySelector('.italy-itinerary-container');
     const image = new Image();
     image.src = Italy;
+    image.alt = 'Italy Itinerary Screenshot';
     image.classList.add('work-images');
     container.append(image);
 }
@@ -96,6 +105,7 @@ function addEtchASketchImage() {
     const container = document.querySelector('.etch-a-sketch-container');
     const image = new Image();
     image.src = EtchASketch;
+    image.alt = 'Etch-A-Sketch Screenshot';
     image.classList.add('work-images');
     container.append(image);
 }
@@ -104,6 +114,7 @@ function addCinemalistImage() {
     const container = document.querySelector('.cinemalist-container');
     const image = new Image();
     image.src = Cinemalist;
+    image.alt = 'Cinemalist Screenshot';
     image.classList.add('work-images');
     container.append(image);
 }

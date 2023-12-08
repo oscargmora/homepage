@@ -8,8 +8,8 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     padding: 1em;
-    background: rgb(0, 128, 255);
-    background: linear-gradient(180deg, #0991b2, rgba(0, 212, 255, 0) 100%);
+    background: #0c7c98;
+    background: linear-gradient(180deg, #0c7c98, rgba(0, 212, 255, 0) 100%);
 }
 
 header-image {
@@ -56,10 +56,12 @@ header-links {
     padding-top: 1em;
 }
 
-@media (min-width: 500px) and (max-width: 999px) {
+.linked-in,
+.github {
+    height: 3em;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1024px) {
     header {
         flex-wrap: nowrap;
         align-items: center;

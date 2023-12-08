@@ -54,7 +54,7 @@ h3 {
     font-size: 25px;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1024px) {
     main {
         margin-top: 5em;
     }
@@ -64,7 +64,6 @@ h3 {
     }
 
     .my-work {
-        padding-left: 4.5em;
-        padding-bottom: 0;
+        text-align: center;
     }
 }

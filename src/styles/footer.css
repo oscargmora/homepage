@@ -1,6 +1,6 @@
 footer {
     margin-top: 5em;
-    background-color: #0991b2;
+    background-color: #0c7c98;
 }
 
 .footer-h2 {
@@ -46,7 +46,7 @@ footer-image {
     object-fit: cover;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1024px) {
     footer {
         display: flex;
         padding: 3em 8em 3em 8em;
