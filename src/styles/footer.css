@@ -1,3 +1,47 @@
 footer {
-    background-color: blue;
+    margin-top: 5em;
+    background-color: #0991b2;
+}
+
+.footer-h2 {
+    padding: 1em 1em 0.5em 1em;
+    color: white;
+}
+
+.footer-p {
+    color: white;
+    padding: 1em;
+}
+
+phone-container,
+email-container {
+    display: flex;
+    align-items: center;
+}
+
+.phone-svg,
+.email-svg {
+    padding-left: 1em;
+    padding-right: 0.5em;
+}
+
+.phone,
+.email {
+    color: white;
+}
+
+footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding-bottom: 1.5em;
+}
+
+footer-image {
+    width: 100%;
+}
+
+.footer-img {
+    width: 100%;
+    object-fit: cover;
 }
